@@ -36,6 +36,7 @@ body {
 .text__animation h1 {
     font-size: 50px;
     margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 .text__animation a {
@@ -51,5 +52,17 @@ body {
     }
     to {
       background-position-x: 500%;
+    }
+}
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 768px) {
+    .text__animation h1 {
+        font-size: 30px;
+    }
+
+    .text__animation a {
+        font-size: 20px;
     }
 }
