@@ -23,7 +23,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    background-image :linear-gradient(90deg, #000000,#ffd700,#000000);
+    background-image: linear-gradient(90deg, #000000,#ffd700,#000000);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
